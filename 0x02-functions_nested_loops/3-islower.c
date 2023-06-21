@@ -4,10 +4,9 @@
  * _islower - function
  *
  * Description: a function to cheks the case of characters
- *
  * @c: cheks input of function
  *
- * return: returns 1 if `c` is lowercase otherwise 0
+ * return: returns 1 if 'c' is lowercase otherwise 0
 */
 
 int _islower(int c)
