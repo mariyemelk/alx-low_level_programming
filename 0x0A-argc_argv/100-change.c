@@ -12,16 +12,16 @@ int main(int argc, char *argv[])
 {
 	if (argc == 2)
 	{
-		int u, leastcents = 0, mn = atoi(argv[1]);
+		int u, leastcents = 0, money = atoi(argv[1]);
 		int cents[] = {25, 10, 5, 2, 1};
 
-		for (u = 0; u < 5; i++)
+		for (u = 0; u < 5; u++)
 		{
-			if (mn >= cents[u])
+			if (money >= cents[u])
 			{
-				leastcents += mn / cents[u];
-				mn = mn % cents[u];
-				if (mn % cents[u] == 0)
+				leastcents += money / cents[u];
+				money = money % cents[u];
+				if (money % cents[u] == 0)
 				{
 					break;
 				}
